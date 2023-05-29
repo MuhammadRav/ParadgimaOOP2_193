@@ -22,3 +22,18 @@ public:
 		cout << "Pesan dari dai" << endl;
 	}
 };
+
+int main() {
+	seseorang* obyek;
+	shen a;
+	dai b;
+
+	obyek = &a;
+	obyek->pesan();
+	obyek = &b;
+	obyek->pesan();
+	//a.seseorang::pesan();
+	//b.seseorang::pesan();
+
+	return 0;
+}
