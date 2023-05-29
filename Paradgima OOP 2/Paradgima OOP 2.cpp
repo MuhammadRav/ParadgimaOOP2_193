@@ -18,5 +18,11 @@ class manusia {
 public:
 	string jenisKelamin;
 
-
+	manusia(string pJenisKelamin) :
+		jenisKelamin(pJenisKelamin) {
+		cout << "Manusia dibuat\n" << endl;
+	}
+	~manusia() {
+		cout << "Manusia dihapus\n" << endl;
+	}
 };
