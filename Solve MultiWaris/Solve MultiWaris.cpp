@@ -8,7 +8,7 @@ public:
 	orang(int pUmur) :
 		umur(pUmur)
 	{
-		cout << "Orang dibuat dengan umur" << umur << "\n" << endl;
+		cout << "Orang dibuat dengan umur " << umur << "\n" << endl;
 	}
 };
 
@@ -41,3 +41,7 @@ public:
 	}
 };
 
+int main() {
+	agus a(19);
+	return 0;
+}
